@@ -6,6 +6,7 @@ bcdedit
 bcdedit /set hypervisorlaunchtype auto
 ```
 
+```
  sudo docker build -t ssingha2/openwhisk-ml_docker .
  
  sudo docker tag python3action:ml-libs ssingha2/python3action:ml-libs
