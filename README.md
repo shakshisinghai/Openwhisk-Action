@@ -16,4 +16,6 @@ bcdedit /set hypervisorlaunchtype auto
  wsk -i action create ml-libs --docker ssingha2/python3action:ml-libs action.py
  
  wsk -i action invoke ml-libs --result
+ 
+ wsk -i activation get (id)
  ```
